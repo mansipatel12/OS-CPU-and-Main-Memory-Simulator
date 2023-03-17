@@ -1,0 +1,43 @@
+1    // Load 0 into AC
+0
+14   // Copy value in AC to X, so X = 0
+4    // Load value at 17+X into AC, address 17 begins the characters for  "i love.."
+17
+21   // Jump to 12 only if AC = 0
+12
+9    // Output the character in AC
+2
+25   // Increment X
+20   // Jump to address 3
+3
+1    // Load 10 into AC
+10
+9    // Output the newline character (10)
+2
+50   // End program
+105 // i
+32 // space
+108 // l
+111 // o
+118 // v
+101 // e
+32 // space
+112 // p
+114 // r
+111 // o
+103 // g
+114 // r
+97 // a
+109 // m
+109 // m
+105 // i
+110 // n
+103 // g
+33 // !
+32 // space
+60 // <
+51 // 3
+0
+
+.1000
+30

@@ -1,0 +1,68 @@
+ Files included in my submission:
+1) CS 4348 Mansi Patel Project 1 Summary: Word document that contains the summary of my project.
+2) CPU.java: The CPU class that will be run for each sample test.
+3) MainMemory.java: The MainMemory class that will be run from the CPU class using the Runtime exec function.
+4) sample5.txt: Text file that will contain my personalized test for my project. 
+5) README: Text file containing the file list, a description of each file, instructions on how to compile and
+run my project, and a sample run.
+
+To compile and run my project on the cs1 server:
+Once logging into the cs1 server, please enter these commands in the terminal--
+{cslinux1:~} javac CPU.java MainMemory.java
+{cslinux1:~} java CPU sampleX.txt Y
+X will be the sample number you would like to run, and Y will be your chosen timer interrupt value.
+Please note that you cannot run the project without entering a file name and timer interrupt value; an error
+message will be returned if you do not. 
+
+Sample Run:
+{cslinux1:~} javac CPU.java MainMemory.java
+{cslinux1:~} java CPU sample1.txt 30
+ABCDEFGHIJKLMNOPQRSTUVWXYZ12345678910
+
+Program ending...
+{cslinux1:~} java CPU sample2.txt 30
+    ------
+ /         \
+/   -*  -*  \
+|           |
+\   \____/  /
+ \         /
+    ------
+
+Program ending...
+{cslinux1:~} java CPU sample3.txt 30
+A
+0
+A
+0
+A
+2
+A
+4
+A
+6
+A
+8
+A
+9
+A
+11
+A
+13
+A
+15
+
+Program ending...
+{cslinux1:~} java CPU sample4.txt 30
+1000
+999
+1000
+1998
+1997
+1998
+Error: Operand address out of user bounds
+{cslinux1:~} java CPU sample5.txt 30
+i love programming! <3
+
+Program ending...
+{cslinux1:~} 
