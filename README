@@ -1,15 +1,14 @@
- Files included in my submission:
-1) CS 4348 Mansi Patel Project 1 Summary: Word document that contains the summary of my project.
+ Files included:
 2) CPU.java: The CPU class that will be run for each sample test.
 3) MainMemory.java: The MainMemory class that will be run from the CPU class using the Runtime exec function.
-4) sample5.txt: Text file that will contain my personalized test for my project. 
+4) sample'x'.txt: Text file that will contain a test for my project. 
 5) README: Text file containing the file list, a description of each file, instructions on how to compile and
 run my project, and a sample run.
 
-To compile and run my project on the cs1 server:
-Once logging into the cs1 server, please enter these commands in the terminal--
-{cslinux1:~} javac CPU.java MainMemory.java
-{cslinux1:~} java CPU sampleX.txt Y
+To compile and run my project:
+Please enter these commands in the terminal--
+javac CPU.java MainMemory.java
+java CPU sampleX.txt Y
 X will be the sample number you would like to run, and Y will be your chosen timer interrupt value.
 Please note that you cannot run the project without entering a file name and timer interrupt value; an error
 message will be returned if you do not. 
